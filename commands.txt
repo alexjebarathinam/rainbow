@@ -1,0 +1,20 @@
+Start a new git repository
+Create a directory to contain the project.
+Go into the new directory.
+Type git init .
+Write some code.
+Type git add to add the files (see the typical use page).
+Type git commit .
+
+echo "# rainbow" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alexjebarathinam/rainbow.git
+git push -u origin main
+
+git remote add origin https://github.com/alexjebarathinam/rainbow.git
+git branch -M main
+git push -u origin main
+
